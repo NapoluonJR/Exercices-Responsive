@@ -1,0 +1,130 @@
+/* Réinitialisation générale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barre supérieure */
+.site-logo {
+    width: 50px;
+    height: auto;
+}
+
+.menu-icon {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+
+/* Section Branding */
+.titre {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.branding h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.error404{
+    width: 15%; /* Réduit la largeur à 50% de son conteneur */
+    height: auto; /* Ajuste automatiquement la hauteur pour respecter les proportions */
+    max-width: 300px
+}
+
+/* Boutons de navigation */
+.bouttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.boutton {
+    padding: 10px 15px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.nav-button:hover {
+    background-color: #777;
+}
+
+/* Section principale */
+.welcome-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.welcome-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    color: #666;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Articles */
+.articles {
+    text-align: center;
+    margin: 20px;
+}
+
+.articles h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+.article-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+article {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 14px;
+    color: #444;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+    .article-grid article {
+        flex: 1 1 calc(50% - 40px);
+    }
+}
+
+@media (min-width: 900px) {
+    .article-grid article {
+        flex: 1 1 calc(33.333% - 40px);
+    }
+}
