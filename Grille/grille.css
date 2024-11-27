@@ -44,7 +44,7 @@
 
 .boutton {
     padding: 10px 15px;
-    background-color: #555;
+    background-color: grey;
     color: white;
     border: none;
     border-radius: 5px;
@@ -58,9 +58,15 @@
 }
 
 /* Section principale */
-.welcome-section {
-    text-align: center;
+.bienvenue {
+    text-align: left;
     margin: 20px 0;
+    margin-left: 10px;
+}
+
+.intro{
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .welcome-section h2 {
@@ -77,8 +83,9 @@
 
 /* Articles */
 .articles {
-    text-align: center;
-    margin: 20px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 .articles h2 {
@@ -105,8 +112,8 @@ article {
     text-align: left;
 }
 
-.product-image {
-    width: 100%;
+.image-article {
+    width: 50%;
     border-radius: 5px;
     margin-bottom: 10px;
 }
